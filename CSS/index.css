@@ -143,7 +143,7 @@ div img{
 .benefit-card{
     width: 25.5%;
     height: 200px;
-    padding: 32px;
+    padding: 3%;
     border-radius: 5%;
     text-align: center;
 }
@@ -178,7 +178,7 @@ div img{
 }
 
 .mid-card{
-    margin: 0px 3.2%;
+    margin: 0px 2.5%;
 }
 
 .outer-icon{
@@ -285,7 +285,7 @@ div img{
 .member-card{
     width: 25.5%;
     height: 200px;
-    padding: 32px;
+    padding: 3%;
     border-radius: 5%;
 }
 
