@@ -1,0 +1,631 @@
+/* ==========> General Styles */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.stack-sans-text{
+  font-family: "Stack Sans Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+html, body{
+    margin: 0px;
+}
+div img{
+    width: 100%;
+}
+
+
+/* ==========> Hero sections */
+.hero-section{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    background: #FBFCFD;
+}
+.container{
+    width: 76%;
+    margin: auto ;
+}
+
+.caption{
+    width: 50%;
+}
+.caption h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.line-space{
+    line-height: 1.8;
+}
+
+.caption p{
+    font-size: 18px;
+    padding-bottom: 25px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.img-section{
+    width: 50%;
+    padding-top: 2%;
+}
+
+.hero-img-container{
+    width: 65%;
+    margin: auto;
+}
+
+.img-container img{
+    border-radius: 15px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clearfix{
+    clear: right;
+}
+
+.btn-1{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.btn-2{
+    background-color: #ffffff;
+    color: rgb(87, 87, 87);
+    font-weight: bold;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    border-color: rgb(212, 212, 212);
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+
+/* ==================  Why choose us section ========================= */
+
+
+.chooseus-section{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 80px;
+}
+/* ===============>  header line */
+.head-line{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 64px;
+}
+
+.head-line h2{
+    padding-bottom: 20px;
+}
+
+.head-line p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #555555;
+}
+
+/* =================> benefit cards */
+.benefit-cards{
+    overflow: auto;
+    margin-bottom: 64px;
+}
+
+.benefit-card{
+    width: 25.5%;
+    height: 200px;
+    padding: 32px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.benefit-caption{
+    margin: auto;
+}
+
+.benefit-caption h3{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.benefit-caption p{
+    font-size: 12.7px;
+    font-weight: 100;
+}
+
+#benefit-1{
+    background-color: rgb(219, 234, 254);
+    border: #BEDBFF solid 1px;
+}
+
+#benefit-2{
+    background-color: #D0FAE5;
+    border: #A4F4CF solid 1px;
+}
+
+#benefit-3{
+    background-color: #F3E8FF;
+    border: #E9D4FF solid 1px;
+}
+
+.mid-card{
+    margin: 0px 3.2%;
+}
+
+.outer-icon{
+    width: 64px;
+    height: 48px;
+    border-radius: 20%;
+    /* background-color: #155DFC; */
+    margin: auto;
+    padding-top: 16px;
+    margin-bottom: 20px;
+}
+
+#outer-icon-1{
+    background-color: #155DFC;
+}
+
+#outer-icon-2{
+    background-color: #009966;
+}
+
+#outer-icon-3{
+    background-color: #9810FA;
+}
+
+.inner-icon{
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 20%;
+    margin: auto;
+}
+
+#inner-icon-1{
+    border-radius: 20%;
+}
+#inner-icon-2{
+    border-radius: 50%;
+}
+#inner-icon-3{
+    border-radius: 10%;
+}
+
+
+
+/* =================> more benfits */
+
+
+.benefit-img-container{
+    width: 48%;
+}
+
+.benefit-img-container img{
+    border-radius: 10px;
+}
+
+.more-benefit-caption{
+    width: 48%;
+}
+
+.more-benefit-caption h3{
+    font-size: 30px;
+    padding-bottom: 18px;
+}
+
+/* .more-benefit-points{
+    padding-left: 25px;
+} */
+
+.benefit-point{
+    margin-bottom: 15px;
+    padding-left: 25px;
+    border-left: 4px solid black;
+}
+
+.benefit-point h4{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.benefit-point p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #555555;
+}
+
+
+/* ==================  What our member say section ========================= */
+
+.member-section{
+    width: 100%;
+    padding-top: 5%;
+    background: rgb(249, 250, 251);
+    padding-bottom: 80px;
+}
+
+
+/* =============> member cards */
+.member-cards{
+    overflow: hidden;
+    margin-bottom: 64px;
+}
+
+.member-card{
+    width: 25.5%;
+    height: 200px;
+    padding: 32px;
+    border-radius: 5%;
+}
+
+.member-card-head{
+    margin-bottom: 20px;
+    overflow: hidden;
+    
+}
+
+.member-avatar{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.member-avatar img{
+    border-radius: 50%;
+}
+
+.member-name{
+    padding-top: 10px;
+}
+
+.member-name h4{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.member-name p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #555555;
+}
+
+#member-1{
+    background-color: rgb(239, 246, 255);
+    border: #BEDBFF solid 1px;
+}
+#member-2{
+    background-color: #ECFDF5;
+    border: #A4F4CF solid 1px;
+}
+#member-3{
+    background-color: #FAF5FF;
+    border: #E9D4FF solid 1px;
+}
+
+.member-card-body{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.1;
+    color: #555555;
+}
+
+/* =============> member stats */
+
+.stats-container{
+    width: 91.2%;
+    padding: 50px;
+    background-color: #F1F5F9;
+    border: #E2E8F0 solid 1px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.member-stats{
+    width: 100%;
+}
+
+.stat{
+    width: 25%;
+    text-align: center;
+    margin: auto;
+}
+
+.stat h3{
+    font-size: 34px;
+    padding-bottom: 10px;
+}
+
+.stat p{
+    font-size: 15px;
+    font-weight: 200;
+    color: #555555;
+}
+
+
+
+/* ==================  Membership Form section ========================= */
+
+.membership-form-section{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 80px;
+}
+.membership-form-container{
+    width: 48%;
+    margin: auto;
+    text-align: center;
+}
+
+#membership-form .container .head-line{
+    width: 55%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.form-container{
+    width: 77.5%;
+    margin: auto;
+    background-color: #F9FAFB;
+    border-radius: 20px;
+}
+
+input, textarea , select , option{
+    font-family: "Stack Sans Text", sans-serif;
+    width: calc(100% - 40px);
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 200;
+    background-color: rgb(249, 250, 251);
+    border:rgb(209, 213, 220) solid 1px;
+    border-radius: 10px;
+    resize: none;
+}
+
+label{
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: rgb(54, 65, 83);
+}
+
+.form-container form{
+    padding: 50px;
+}
+
+.fullname-form{
+    margin-bottom: 24px;
+    width: 100%;
+    /* padding-left: 4%; */
+}
+
+.firstname-form{
+    width: 48%;
+}
+
+.lastname-form{
+    width: 48%;
+}
+
+.email-form{
+    margin-bottom: 24px;
+}
+
+.phone-form{
+    margin-bottom: 24px;
+}
+.membership-type-form{
+    margin-bottom: 24px;
+}
+
+.membership-type-form select{
+    width: 100%;
+}
+
+.fitness-goals-form{
+    margin-bottom: 24px;
+}
+.submit-btn{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.submit-comment{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    color: #555555;
+}
+
+
+
+/* ==================  Footer section ========================= */
+
+a{
+    text-decoration: none;
+    color: #99A1AF;
+}
+
+.footer-section{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 80px;
+    background-color: #101828;
+    overflow: hidden;
+    color: #99A1AF;
+}
+
+.main-footer{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* ===========>  about us */
+
+.aboutus{
+    width: 50%;
+    color: #99A1AF;
+}
+.aboutus h3{
+    font-size: 30px;
+    padding-bottom: 18px;
+    color: #FFFFF2;
+}
+
+.aboutus p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.our-accounts a{
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+/* quick links */
+
+.quick-list{
+    width: 28%;
+}
+.quick-list h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 18px;
+    color: #FFFFF2;
+}
+.quick-list a{
+    display: block;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+/* contact info */
+.contactinfo{
+    width: 22%;
+}
+.contactinfo h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 18px;
+    color: #FFFFF2;
+}
+
+.contactinfo div{
+    margin-bottom: 20px;
+}
+.contactinfo .our-address h4{
+    font-size: 16px;
+    font-weight: 200;
+    padding-bottom: 5px;
+    color: #FFFFF2;
+}
+.contactinfo .our-address p{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.8;
+}
+.contactinfo .our-phone h4{
+    font-size: 16px;
+    font-weight: 200;
+    padding-bottom: 5px;
+    color: #FFFFF2;
+}
+.contactinfo .our-phone p{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.8;
+}
+.contactinfo .our-email h4{
+    font-size: 16px;
+    font-weight: 200;
+    padding-bottom: 5px;
+    color: #FFFFF2;
+}
+.contactinfo .our-email p{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.8;
+}
+
+
+
+.contactinfo .our-hours h4{
+    font-size: 16px;
+    font-weight: 200;
+    padding-bottom: 5px;
+    color: #FFFFF2;
+}
+
+.contactinfo .our-hours p{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.8;
+}
+
+/* Privacy Policy Links */
+.privacy{
+    padding-top: 32px;
+    border-top: #232C3D solid 2px;
+}
+
+.copy-right{
+    font-size: 14px;
+    font-weight: 200;
+    color: #6A7282;
+}
+
+.privacy-policy{
+    font-size: 14px;
+    font-weight: 200;
+    color: #6A7282;
+}
+.privacy-policy a{
+    margin-left: 24px;
+    color: #6A7282;
+}
